@@ -1,22 +1,18 @@
-\## 📓 View Notebooks (Recommended)
+\## 📓 Project Notebooks (Recommended)
 
 
 
-GitHub sometimes fails to render Jupyter notebooks properly.
+\- 🔹 TF-IDF + Logistic Regression + DistilBERT  
 
-Please use the links below for the best viewing experience:
-
-
-
-\- 🔹 TF-IDF + Logistic Regression + DistilBERT:
-
-&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/sentiment\_project.ipynb?flush\_cache=true
+&nbsp; https://github.com/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/sentiment\_project.ipynb
 
 
 
-\- 🔹 Word2Vec + Logistic Regression:
+\- 🔹 Word2Vec + Logistic Regression  
 
-&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/Sentiment\_project\_word2vec.ipynb?flush\_cache=true
+&nbsp; https://github.com/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/Sentiment\_project\_word2vec.ipynb
+
+
 
 
 
