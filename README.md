@@ -10,13 +10,15 @@ Please use the links below for the best viewing experience:
 
 \- 🔹 TF-IDF + Logistic Regression + DistilBERT:
 
-&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/sentiment\_project.ipynb
+&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/sentiment\_project.ipynb?flush\_cache=true
 
 
 
 \- 🔹 Word2Vec + Logistic Regression:
 
-&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/Sentiment\_project\_word2vec.ipynb
+&nbsp; https://nbviewer.org/github/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/Sentiment\_project\_word2vec.ipynb?flush\_cache=true
+
+
 
 
 
