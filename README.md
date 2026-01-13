@@ -1,25 +1,3 @@
-\## 📓 Project Notebooks (Recommended)
-
-
-
-\- 🔹 TF-IDF + Logistic Regression + DistilBERT  
-
-&nbsp; https://github.com/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/sentiment\_project.ipynb
-
-
-
-\- 🔹 Word2Vec + Logistic Regression  
-
-&nbsp; https://github.com/tabassum40ahs-hub/sentiment-analysis-restaurant-reviews/blob/main/Sentiment\_project\_word2vec.ipynb
-
-
-
-
-
-
-
-
-
 \# Sentiment Analysis on Restaurant Reviews
 
 
