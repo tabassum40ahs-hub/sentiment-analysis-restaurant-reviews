@@ -1,60 +1,111 @@
-\# Sentiment Analysis on Restaurant Reviews
+# 📌 Project Overview
+
+This project performs sentiment analysis on McDonald's customer reviews using Natural Language Processing (NLP) and Machine Learning techniques.
+
+The objective is to automatically classify customer reviews as Positive or Negative based on the text content.
+
+The project compares traditional NLP approaches and transformer-based models to understand how different techniques perform on restaurant review sentiment classification.
+
+# 📊 Dataset
+
+The dataset consists of McDonald's restaurant customer reviews.
+
+Each review is labeled with a sentiment:
+
+Positive
+
+Negative
+
+Basic text preprocessing steps were applied before modeling:
+
+Lowercasing text
+
+Removing punctuation
+
+Stopword removal
+
+Tokenization
+
+
+# ⚙️ Models Implemented
+
+The following approaches were implemented and compared:
+
+TF-IDF + Logistic Regression
+
+A traditional NLP approach where text is converted into numerical features using TF-IDF vectorization, followed by a Logistic Regression classifier.
+
+Word2Vec + Logistic Regression
+
+Word embeddings were generated using Word2Vec to capture semantic relationships between words before training the classifier.
+
+DistilBERT Transformer Model
+
+A pretrained transformer model (DistilBERT) was used for sentiment classification using contextual embeddings.
+
+
+# 📈 Model Evaluation
+
+The models were evaluated using:
+
+Accuracy
+
+Confusion Matrix
+
+Cross Validation
+
+Additional testing was performed on confusing or mixed-sentiment reviews to evaluate model robustness.
 
 
 
-\## Problem Statement
+# 🔍 Key Insights
 
-Businesses receive thousands of customer reviews.
+TF-IDF + Logistic Regression performed best on the dataset in terms of overall accuracy.
 
-Manual sentiment analysis is not scalable.
+Word2Vec underperformed, likely due to the limited dataset size.
 
-This project predicts whether a review is Positive or Negative.
+When tested on simple reviews, most models predicted the sentiment correctly.
 
+For confusing or mixed-sentiment reviews, traditional models sometimes struggled.
 
+DistilBERT handled confusing reviews better, since transformer models capture contextual meaning more effectively.
 
-\## Dataset
+Example confusing review tested:
 
-• Restaurant customer reviews
+"The burger was tasty but the service was extremely slow."
 
-• Cleaned and manually labeled
-
-• Balanced positive and negative samples
-
-
-
-\## Models Implemented
-
-1\. TF-IDF + Logistic Regression
-
-2\. Word2Vec + Logistic Regression
-
-3\. Pretrained Transformer (DistilBERT)
+Traditional models showed uncertainty in classification, while DistilBERT handled contextual sentiment more effectively.
 
 
 
-\## Evaluation
+# 🛠 Tech Stack
 
-• Accuracy
+Python
 
-• Confusion Matrix
+Pandas
 
-• Cross Validation
+NumPy
 
-• Testing on confusing / mixed reviews
+Scikit-learn
 
+Gensim
 
+HuggingFace Transformers
 
-\## Key Insights
+Matplotlib
 
-• TF-IDF performed best on this dataset
+Seaborn
 
-• Word2Vec underperformed due to limited data
+# 💡 Future Improvements
 
-• DistilBERT handled context better but is resource intensive
+Expand dataset with larger review collection
 
+Improve Word2Vec embeddings with more training data
 
+Fine-tune transformer models for better performance
 
-\## Tools Used
+Deploy the model as a web application
 
-Python, pandas, scikit-learn, gensim, transformers
+# 👩‍💻 Author
 
+Tabassum Shaikh
